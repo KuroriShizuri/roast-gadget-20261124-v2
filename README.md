@@ -15,7 +15,9 @@ Deadline: 2026-11-26T15:00:00Z (26 Nov 2026 22:00 WIB). Pot $5 ($2/$2/$1).
 > Opening two Chrome tabs turns my laptop into a leaf blower that also does spreadsheets.
 
 87 characters, exactly one line. The roast targets the laptop — the
-gadget every laptop user hears every single day.
+gadget every laptop user hears every single day. Two Chrome tabs are
+enough to make the fan scream, so the joke lands for almost anyone
+who has ever opened a browser.
 
 ## How it works
 
@@ -30,3 +32,7 @@ Run it:
 ```sh
 python3 main.py
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).

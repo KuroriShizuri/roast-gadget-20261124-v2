@@ -16,8 +16,9 @@ MAX_CHARS = 200
 
 def main() -> int:
     # Validate the entry BEFORE writing anything.
+    # Check 1 of 3: the entry must contain visible text.
     if not ENTRY.strip():
-        print("FAIL: entry is empty or whitespace-only", file=sys.stderr)
+        print("FAIL: entry is empty or whitespace-only (check 1 of 3)", file=sys.stderr)
         return 1
     # Exactly one line: no newline characters inside the entry.
     if "\n" in ENTRY or "\r" in ENTRY:
